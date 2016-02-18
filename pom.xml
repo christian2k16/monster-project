@@ -2,20 +2,20 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.sqa.CM.auto</groupId>
-	<artifactId>basic-auto-project</artifactId>
+	<artifactId>monster-project</artifactId>
 	<version>1.0 SNAPSHOT</version>
-	<name>Basic Automation Project</name>
-	<description>Basic Java Selenium Automation Project</description>
+	<name>Monster.com</name>
+	<description>Automation Project for Monster.com</description>
 	<dependencies>
+		<dependency>
+			 <groupId>org.seleniumhq.selenium</groupId>
+ 			<artifactId>selenium-java</artifactId>
+ 			<version>2.42.2</version>
+		</dependency>
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>6.9.6</version>
-		</dependency>
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.12</version>
 		</dependency>
 	</dependencies>
 	<build>
